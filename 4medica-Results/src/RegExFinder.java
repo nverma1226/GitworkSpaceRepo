@@ -1,3 +1,4 @@
+import java.util.regex.Pattern;
 
 public class RegExFinder {
 
@@ -8,7 +9,7 @@ public class RegExFinder {
 	
 	System.out.println(neeraj.replaceAll("(\\w)(\\s+)([\\.,])", "$1$3"));
 	
-	
+	Pattern pattern;	
 	
 	
 	}
